@@ -1,0 +1,29 @@
+checkers AI vs Dad:
+
+-implement the close button.
+
+-Implement drag and drop
+
+-Make it able to interprete dad's shaky hand.
+
+-Resolve end games with some basic logic about how to end games. (no useless moves!)
+CRITICAL: make the AI prioritize winning as soon as possible!
+
+code:
+
+Game game = new Game();
+	  	Player p1 = new Human();
+	  	Player p2 = new checkersAI.ComputerAIAlphaBetaPruneDrawAvoider(false, 12, new checkersUtility.UtilityAtEquilibriumPos(new checkersUtility.UtilityKingWantsCenter()), false); 
+		   
+	    
+	    Player winner = game.playGame(p1, p2);
+	    
+
+	    if(winner instanceof Human) {
+	    	System.out.println("Player 1 wins!");
+	    } else if(winner == p2 ) {
+	    	System.out.println("Player 2 wins!");
+	    } else {
+	    	System.out.println("Draw!");
+	    }
+
