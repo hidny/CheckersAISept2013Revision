@@ -1,1 +1,1 @@
-git just let me in you jackass.
+This is my checkers project. Add these files in an eclipse project and run MainGame.java to play vs the computer and probably lose.
