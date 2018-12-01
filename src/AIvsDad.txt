@@ -4,7 +4,7 @@ checkers AI vs Dad:
 
 -Implement drag and drop
 
--Make it able to interprete dad's shaky hand.
+-Make it able to interpret dad's shaky hand.
 
 -Resolve end games with some basic logic about how to end games. (no useless moves!)
 CRITICAL: make the AI prioritize winning as soon as possible!
